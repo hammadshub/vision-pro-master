@@ -1,0 +1,59 @@
+ 
+
+
+.Parallax{
+    display: flex;
+    justify-content: center;
+  position: relative;
+  color: white;
+  height: 100vh;
+}
+
+
+.Parallax__background_video{
+    position: relative;
+}
+
+
+#Control__app__video > video {
+    position: absolute;
+    background-size: contain;
+     margin-top: 400px;
+ 
+   height: 100vh;
+}
+
+
+.Parallax__content{
+ 
+display: flex;
+flex-direction: column;
+align-items: center;
+z-index: 1;
+position: absolute;
+ 
+}
+
+
+
+
+.Parallax__content__cta{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Parallax__content__heading h2{
+    font-size: 30px;
+    line-height: normal;
+
+}
+
+
+.Parallax__content__cta p{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: normal;
+    color: red;
+}

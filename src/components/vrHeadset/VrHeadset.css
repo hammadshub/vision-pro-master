@@ -1,0 +1,92 @@
+.main_content {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    overflow-x: hidden;
+    /* background-color: red; */
+  }
+  
+  .vr_logo {
+    margin-bottom: 100px;
+    width: 100%;
+  }
+  
+  .vr_img img{
+    margin-bottom: 100px;
+    width: 80%;
+    transition: transform 0.1s ease-out;
+  }
+  
+  .vr_img:hover {
+    transform: scale(1.01) rotate(5deg);
+  }
+  
+  .vr_button {
+    
+    display: inline-flex;
+    align-items: center;
+    padding: 15px 25px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    outline: none;
+    font-size: 19px;
+    line-height: 1.2105263158;
+    font-weight: 600;
+    letter-spacing: 0.012em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+      sans-serif;
+  }
+  
+  .vr_button .plus-icon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .vr_button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  
+  
+  
+  
+  @media (max-width: 900px) { 
+    .main_content {
+      text-align: center;
+    }
+  
+  
+    .vr_img img {
+      max-width: 90%;
+    
+    }
+  
+  
+    .vr_logo img {
+      width: 45%;
+    }
+  
+  
+    .vr_button {
+      padding: 12px 20px;
+    }
+  
+   }
+  
+  
+   @media (max-width: 576px){
+    .vr_button {
+      padding: 6px 15px;
+      font-size: 15px;
+    }
+  
+  
+   }
+  
+  

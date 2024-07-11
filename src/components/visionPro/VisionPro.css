@@ -1,0 +1,245 @@
+.visionpro {
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.applevisionvideo {
+  z-index: 1;
+  margin-top: -473px;
+  object-fit: cover;
+}
+
+
+.playypausebutton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 1;
+ 
+}
+
+
+/* height: 170vh; */
+video {
+  
+height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.scrollOver {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+.scrollText p {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.play-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 3px solid #f56a0c;
+  border-radius: 35px;
+  padding: 11px 30px;
+  color: #f56a0c;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  transition: background-color 0.3s ease;
+  margin-top: -30px;
+  margin-bottom: 370px;
+}
+
+.play-button:hover {
+  background-color: #f56300;
+  color: white;
+}
+
+.play-button svg {
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  border: 3px solid #f56a0c;
+  border-radius: 50%;
+  padding: 2px;
+  padding-left: 3px;
+}
+
+.play-button span {
+  vertical-align: middle;
+}
+
+
+
+
+@media (max-width: 1200px){
+  .visionpro {
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+  }
+  
+  .applevisionvideo {
+    z-index: 1;
+    margin-top: -373px;
+    object-fit: cover;
+  }
+  
+  video {
+  
+    height: 100vh;
+      width: 100%;
+      object-fit: cover;
+    }
+    
+    .scrollOver {
+      text-align: center;
+      position: relative;
+      z-index: 2;
+      color: white;
+    }
+    
+    .scrollText p {
+      font-size: 50px;
+      font-weight: bolder;
+    }
+    .play-button {
+      display: inline-flex;
+      align-items: center;
+      
+      margin-bottom: 300px;
+    }
+  
+} 
+
+
+
+
+@media (max-width: 992px){
+  .visionpro {
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+  }
+  
+  .applevisionvideo {
+    z-index: 1;
+    /* margin-top: -473px; */
+    object-fit: cover;
+  }
+  
+  video {
+  
+    height: 100vh;
+      width: 100%;
+      object-fit: cover;
+    }
+    
+
+     
+    .scrollOver {
+      text-align: center;
+      position: relative;
+      z-index: 2;
+      color: white;
+    }
+    
+    .scrollText p {
+      font-size: 30px;
+      font-weight: bolder;
+    }
+
+
+
+    .play-button {
+       
+      padding: 8px 25px;
+      color: #f56a0c;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      outline: none;
+      transition: background-color 0.3s ease;
+      margin-top: -30px;
+      margin-bottom: 300px;
+    }
+    
+    
+    
+    .play-button svg {
+      margin-right: 10px;
+      width: 14px;
+      height: 14px;
+      border: 2px solid #f56a0c;
+      border-radius: 50%;
+      
+    }
+
+    
+    
+  }
+
+
+
+  
+@media (max-width: 768px){
+  .visionpro {
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+  }
+  
+  .applevisionvideo {
+    z-index: 1;
+    margin-top:-573px;
+    object-fit: cover;
+  }
+  
+  video {
+  
+    height: 100vh;
+      width: 100%;
+      object-fit: cover;
+    }
+    
+
+    
+    .scrollText p {
+      font-size: 25px;
+      font-weight: bolder;
+    }
+
+
+
+    .play-button {
+       
+      padding: 8px 17px;
+      color: #f56a0c;
+      font-size: 14px;
+      font-weight: bold;
+      
+      margin-top: -20px;
+      margin-bottom: 80px;
+    }
+}
+
+
+
+@media (max-width: 768px){
+  
+}

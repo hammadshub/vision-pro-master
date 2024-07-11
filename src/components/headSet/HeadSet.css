@@ -1,0 +1,116 @@
+.main_headset {
+  margin: 0px auto;
+  position: relative;
+}
+
+.upper_headset {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.left_headset img {
+  height: 804px;
+  width: 659px;
+}
+.right_headset img {
+  height: 804px;
+  width: 659px;
+}
+
+.lower_headset {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+  width: 100%;
+  align-items: center;
+  position: relative;
+}
+
+.lower_headset > video {
+  height: 100vh;
+  width: 92%;
+  object-fit: cover;
+  margin: auto;
+}
+
+.play-pausebutton {
+  position: absolute;
+  transform: translate();
+  right: 70px;
+  top: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+   
+
+  /* .upper_headset {
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 4px;
+    height: 100%;
+   left: 20px;
+  }
+  
+  .left_headset img {
+     
+    width: 90%;
+  }
+  .right_headset img {
+  
+    width: 90%;
+  } */
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .left_headset img {
+    width: 90%;
+    height: 90vh;
+  }
+  .right_headset img {
+    width: 90%;
+    height: 90vh;
+  }
+
+  .upper_headset {
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .lower_headset {
+    margin-top: 50px;
+    
+  }
+
+  .lower_headset > video {
+    height: 90vh;
+    width: 90%;
+ 
+  }
+
+  .play-pausebutton {
+    position: absolute;
+    right: 40px;
+    top: 14px;
+    cursor: pointer;
+  }
+
+  .play-pausebutton svg{
+  height: 35px;
+  width: 35px;
+
+  }
+}
+
+
