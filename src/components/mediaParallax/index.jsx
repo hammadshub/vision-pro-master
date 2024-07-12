@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./MediaParallax.css";
-import large from "../../assets/videos/large.mp4";
+import media from "../../assets/videos/media.mp4";
 import PlaySvg from "../../assets/svg/PlaySvg";
 import PauseSvg from "../../assets/svg/PauseSvg";
 
@@ -58,7 +58,7 @@ const MediaParallax = () => {
     <div className="media-container">
       <div className="media-videoSection media-one clearfix">
         <video autoPlay loop muted ref={videoRef}>
-          <source src={large} type="video/mp4" />
+          <source src={media} type="video/mp4" />
         </video>
         <div className="play__pause___button" onClick={handlePlayPause}>
           {isPlaying ? (
