@@ -2,13 +2,13 @@ import React,{useState,useRef} from "react";
 import Right_headset from "../../assets/images/Right_headset.jpg";
 import Left_headset from "../../assets/images/Left_headset.jpg";
 import lower_headset from "../../assets/videos/headset_video.mp4";
-import "./HeadSet.css";
+import "./HeadSetSec.css";
 import PlaySvg from "../../assets/svg/PlaySvg";
 import PauseSvg from "../../assets/svg/PauseSvg";
 
 
 
-const HeadSet = () => {
+const HeadSetSec = () => {
 
   const videoRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(true);
@@ -51,4 +51,4 @@ const HeadSet = () => {
   );
 };
 
-export default HeadSet;
+export default HeadSetSec;

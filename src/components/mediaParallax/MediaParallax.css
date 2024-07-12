@@ -1,0 +1,141 @@
+/* ParallaxVideoSection.css */
+.media-container {
+    background: #b3c1da;
+    width: 100%;
+    height: 100vh;
+    margin: 23px auto;
+  }
+  
+  .media-videoSection {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .play__pause___button {
+    transform: translate(-50%, 50%);
+    top: 0%;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+  }
+  
+  .media-videoSection video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .media-videoContent {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .media-one {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .media-one::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  .media-right-child {
+    display: flex;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  }
+  
+  .media-right-child button {
+    width: fit-content;
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  .media-right-child h2 {
+    font-size: 30px;
+    line-height: normal;
+  }
+  
+  .media-right-child p {
+    margin-top: -10px;
+    font-size: 72px;
+    line-height: 1.0625;
+    font-weight: 700;
+    letter-spacing: -0.009em;
+  }
+  
+  .media-right-child.posFix {
+    position: fixed;
+    top: 25px;
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .media-right-child.posAbs {
+    position: absolute;
+    bottom: 25px;
+    transform: translateY(100%);
+    opacity: 1;
+  }
+  
+  .media-bottom {
+    width: 100%;
+  }
+  
+  @media (max-width: 992px) {
+    .media-container {
+      width: 100%;
+    }
+    .media-right-child {
+      width: 100%;
+    }
+    .media-right-child p {
+      font-size: 66px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .play__pause___button svg {
+      height: 35px;
+      width: 35px;
+    }
+    .media-right-child p {
+      margin-top: 13px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+   
+    .media-right-child p {
+      margin-top: 25px;
+      font-size: 52px;
+      line-height: 1.0625;
+      font-weight: 700;
+      letter-spacing: -0.009em;
+    }
+    .media-right-child h2 {
+      font-size: 20px;
+      line-height: normal;
+    }
+  }
+  

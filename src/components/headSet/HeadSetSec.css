@@ -9,7 +9,7 @@
   justify-content: center;
   gap: 40px;
   height: 100%;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .left_headset img {
@@ -75,26 +75,26 @@
 @media (max-width: 768px) {
   .left_headset img {
     width: 90%;
-    height: 90vh;
+    height: 70vh;
   }
   .right_headset img {
     width: 90%;
-    height: 90vh;
+    height: 70vh;
   }
 
   .upper_headset {
     text-align: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 40px;
   }
 
   .lower_headset {
-    margin-top: 50px;
+    margin-top: 40px;
     
   }
 
   .lower_headset > video {
-    height: 90vh;
+    height: 70vh;
     width: 90%;
  
   }

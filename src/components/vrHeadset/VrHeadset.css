@@ -3,12 +3,12 @@
     padding-top: 100px;
     padding-bottom: 100px;
     overflow-x: hidden;
-    /* background-color: red; */
+  
   }
   
   .vr_logo {
     margin-bottom: 100px;
-    width: 100%;
+    max-width: 100%;
   }
   
   .vr_img img{
@@ -82,10 +82,25 @@
   
    @media (max-width: 576px){
     .vr_button {
-      padding: 6px 15px;
-      font-size: 15px;
+      padding: 6px 9px;
+      font-size: 14px;
     }
   
+    vr_logo img {
+      width: 35%;
+      
+    }
+
+    .vr_img img {
+      max-width: 100%;
+      margin-bottom: 80px;
+    }
+
+    .vr_button .plus-icon {
+      margin-right: 2px;
+      font-size: 14px;
+    }
+    
   
    }
   
